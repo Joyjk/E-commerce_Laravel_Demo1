@@ -28,6 +28,26 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+
+        <div class="trending-wrapper">
+            <h3>Trending Products</h3>
+            @foreach($products as $item)
+                <div class="trending-item">
+                    <a href="detail/{{$item['id']}}">
+                <img class="trending-image" src="{{$item['gallery']}}" alt="First slide">
+
+                <div>
+                    <h5 style="float: left;">{{$item['name']}}</h5>
+                </div>
+                    </a>
+
+                </div>
+            @endforeach
+
+
+
+        </div>
+
 </div>
 @endsection
 
