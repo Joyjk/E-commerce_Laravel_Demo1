@@ -44,7 +44,7 @@
   <div class="">
         <ul class="navbar-nav ">
             <li class="nav-item">
-            <a class="nav-link" href="#">Cart({{$total}})</a>
+            <a class="nav-link" href="/cartList">Cart({{$total}})</a>
             </li>
             @if(Session::has('userData'))
 
