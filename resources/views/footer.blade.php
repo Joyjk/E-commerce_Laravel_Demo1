@@ -1,3 +1,20 @@
+
+
+<!-- <div class="panel panel-default" style="">
+  <div class="panel-body">
+    Footer all
+  </div>
+  <div class="panel-footer">
+        Footer panel
+  </div>
+</div> -->
+
+<!-- <footer class="footer" style="clear: both; background-color:green">
+    <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+</footer> -->
+
 <div class="card" style="clear: both; ">
   <div class="card-header">
     Featured

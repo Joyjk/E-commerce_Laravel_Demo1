@@ -52,7 +52,7 @@
                     <br>
 
 
-                    <input type="radio" class="" value="cash" name="paymentType"> <span>cash on Delivery</span>
+                    <input type="radio" class="" value="cash" name="paymentType"> <span>Cash on Delivery</span>
                     <br>
                     <br>
                     <input type="radio" class="" value="Bkash" name="paymentType"> <span>Bkash</span>

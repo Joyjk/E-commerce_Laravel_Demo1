@@ -20,6 +20,17 @@ class UserAuth
         {
             return redirect('/');
         }
+
+        if($request->path()=="cartList" && !$request->session()->has('userData'))
+        {
+            return redirect('/');
+        }
+
+        if($request->path()=="myorders" && !$request->session()->has('userData'))
+        {
+            return redirect('/');
+        }
+
         return $next($request);
     }
 }
