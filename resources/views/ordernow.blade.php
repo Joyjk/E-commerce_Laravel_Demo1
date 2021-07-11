@@ -40,11 +40,11 @@
         </div>
 
         <div class="col-sm-10">
-            <form>
+            <form action="/orderplace" method="POST">
+            @csrf
                 <div class="form-group">
                     <label for="exampleInputEmail1">Delivery address</label>
-                    <textarea type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </textarea>
+                    <textarea type="text" name="address" class="form-control" id="exampleInputEmail1"  placeholder="Address"></textarea>
 
                 </div>
                 <div class="form-group">
@@ -52,20 +52,20 @@
                     <br>
 
 
-                    <input type="radio" class="" name="paymentType"> <span>cash on Delivery</span>
+                    <input type="radio" class="" value="cash" name="paymentType"> <span>cash on Delivery</span>
                     <br>
                     <br>
-                    <input type="radio" class="" name="paymentType"> <span>Bkash</span>
+                    <input type="radio" class="" value="Bkash" name="paymentType"> <span>Bkash</span>
                     <br>
                     <br>
-                    <input type="radio" class="" name="paymentType"> <span>Nogod</span>
+                    <input type="radio" class="" value="Nogod" name="paymentType"> <span>Nogod</span>
                     <br>
                     <br>
 
-                    <input type="radio" class="" name="paymentType"> <span>Bkash</span>
+                    <input type="radio" class="" value="Visa" name="paymentType"> <span>Visa</span>
                     <br>
                     <br>
-                    <input type="radio" class="" name="paymentType"> <span>Bkash</span>
+                    <input type="radio" class="" value="Mastercard" name="paymentType"> <span>Mastercard</span>
                     <br>
                     <br>
 
