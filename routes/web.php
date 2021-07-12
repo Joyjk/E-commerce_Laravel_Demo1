@@ -40,6 +40,12 @@ Route::post('orderplace',[ProductController::class,'orderPlace']);
 
 Route::get('myorders',[ProductController::class,'myOrders']);
 
+Route::view('register','registration');
+
+Route::post('register',[UserController::class,'userRegistration']);
+
+
+
 
 
 
